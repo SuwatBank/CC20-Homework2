@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    background-image: url(./image/pexels-photo-2078266.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav{
+    display: flex;
+    height: 5%;
+    width: 80%;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.topnav > *{
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.topnav > *:hover{
+    cursor: pointer;
+}
+
+.header1, .header2{
+    font-family: sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.para{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.downloadbar{
+    display: flex;
+    height: 10px;
+    width: 35%;
+    box-shadow: 0px 1px 3px black;
+    margin-bottom: 5px;
+}
+
+.downloadbar1{
+    height: 10px;
+    width: 70%;
+    background-color: rgb(146, 233, 255);
+}
+
+.downloadbar2{
+    height: 10px;
+    width: 30%;
+    background-color: white;
+}
+
+.percentage{
+    color: white;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.button{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.button > *{
+    background-color: rgb(146, 233, 255);
+    padding: 10px 20px 10px 20px;
+    border: transparent;
+    border-radius: 3px
+}
+
+.button > *:hover{
+    cursor: pointer;
+    background-color: white
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 5%;
+    margin-bottom: 15%;
+}
+
+.contact > *{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.contactus{
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.contactus:hover{
+    cursor: pointer;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-envelope{
+    font-size: 25px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    width: 50%;
+    height: 5%;
+    border-top: 1px solid gray;
+    padding: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer >*{
+    font-size: 15px;
+    color: gray;
+}
